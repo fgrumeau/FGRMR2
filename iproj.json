@@ -4,7 +4,7 @@
     "includePath": [
         "FGRMR2_SRC/QPROTOSRC"
     ],
-    "repository": "git@github.com:fgrumeau/FGRMR2.git",
+    "repository": "git@gitlab.quarcad.net:fgrumeau/tstfgr.git",
     "objlib": "&verlibfgrmr2",
     "curlib": "*CRTDFT",
     "extensions": {
