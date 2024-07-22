@@ -1,0 +1,20 @@
+{
+    "description": "TETS FGR",
+    "version": "0.0.1",
+    "includePath": [
+        "FGRMR2_SRC/QPROTOSRC"
+    ],
+    "repository": "git@github.com:fgrumeau/FGRMR2.git",
+    "objlib": "&verlibfgrmr2",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "FGRMR2",
+            "libraryPrefix": "FG2",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}
